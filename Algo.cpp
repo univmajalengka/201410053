@@ -2,15 +2,12 @@
 using namespace std;
 int main()
 {
-	cout<< "--------------------"<<endl;
-	cout<<     KALKULATOR        <<endl;
-	cout<< "--------------------"<<endl;
-	cout<< pilih menu :          <<endl;
-	cout<<"1. Pertambahan"       <<endl;
-	cout<<"2. Pengurangan"       <<endl;
-	cout<<"3. Perkalian"         <<endl;
-	cout<<"4. Pembagian"         <<endl;
-	cout<<"5.Sisa Hasil Bagi"    <<endl;
+	cout<<-    pilih menu :        -<<endl;
+	cout<<-    "1. Pertambahan"    -<<endl;
+	cout<<-    "2. Pengurangan"    -<<endl;
+	cout<<-    "3. Perkalian"      -<<endl;
+	cout<<-    "4. Pembagian"      -<<endl;
+	cout<<-    "5.Sisa Hasil Bagi" -<<endl;
 	int a,b,c, menu;
 	float d,e,f;
 	cin>>menu;
