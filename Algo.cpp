@@ -40,6 +40,6 @@ int main()
 	else {
 		cout<<"Menu Tidak Ada";
 	}
-	return false;
+	return false:
 } 
 
