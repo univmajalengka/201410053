@@ -25,4 +25,5 @@ j3,m3,d3 => (td3)
 
 //tampilan layar ex 1:1:1
 output(j3,m3,d3)
+	
 
