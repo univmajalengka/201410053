@@ -19,7 +19,6 @@ int main ()
 		
 		cout << "Diskon 0%			: Rp. " << diskon <<endl;
 		cout << "Total Pembayaran anda adalah	: Rp. " << totalbayar <<endl<<endl;
-		cout << "Terima kasih, selalu jaga kesehatan yaa";
 
 	} else if (totalbelanja <= 50000){
 		diskon = totalbelanja * disc1;
@@ -27,16 +26,14 @@ int main ()
 		
 		cout << "Diskon 10%			: Rp. " << diskon <<endl;
 		cout << "Total Pembayaran anda adalah	: Rp. " << totalbayar <<endl<<endl;
-		cout << "Terima kasih, selalu jaga kesehatan yaa";
-
+	
 	} else if (totalbelanja <= 100000){
 		diskon = totalbelanja * disc2;
 		totalbayar = totalbelanja - diskon;
 		
 		cout << "Diskon 12.5%			: Rp. " << diskon <<endl;
 		cout << "Total Pembayaran anda adalah	: Rp. " << totalbayar <<endl<<endl;
-		cout << "Terima kasih, selalu jaga kesehatan yaa";
-
+		
 	} else if (totalbelanja > 100000){
 		diskon = totalbelanja * disc3;
 		totalbayar = totalbelanja - diskon;
